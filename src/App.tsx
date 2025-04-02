@@ -188,21 +188,23 @@ function App() {
       {/* Footer */}
       <footer className="bg-dark-lighter py-8 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-          <Link to="/">
+          <a href="/">
             <div className="flex items-center space-x-2">
               <img src={Logo} alt="BoomerAI Logo" className="w-20 -mr-2" />
               <span className="text-xl font-bold">BoomerAI</span>
             </div>
-          </Link>
+          </a>
           <div className="text-gray-400 text-sm">
             © 2025 BoomerAI. All rights reserved.
           </div>
           <div className="flex gap-4">
-            <Link to="/legal" className="text-gray-400 hover:text-gray-200 text-sm">
+            <a href="/legal">
               Legal
-            </Link>
-            <a className='hover:text-gray-500 text-[#565D68]' href="https://boomerai.com" target="_blank">BoomerAI</a> by <a className='hover:text-gray-500 text-[#565D68]' href="https://bkrupka.com" target="_blank">BKrupka</a>
+            </a>
           </div>
+        </div>
+        <div className='text-center mt-4 text-sm text-gray-600'>
+          Created for <a href="https://boomerai.fun" className='hover:text-gray-500' target='_blank'>BoomerAI</a> by <a href="https://bkrupka.com" className='hover:text-gray-500' target='_blank'>BKrupka</a>
         </div>
       </footer>
     </div>
