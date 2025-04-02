@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Chrome, Sparkles, Upload, Zap, MessageSquareText, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import Logo from './images/logo-nobg-large.png'
 
 function App() {
@@ -26,19 +27,19 @@ function App() {
 
         <nav className="absolute top-0 w-full z-10 px-6 py-4">
           <div className="max-w-7xl mx-auto flex items-center sm:justify-between justify-center">
-            <a href="#">
+            <Link to="/">
               <div className="flex items-center space-x-2">
                 <img src={Logo} alt="BoomerAI Logo" className="w-20 -mr-2" />
                 <span className="text-2xl font-bold">BoomerAI</span>
               </div>
-            </a>
+            </Link>
             {/* Przycisk widoczny tylko na większych ekranach */}
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-primary hidden sm:flex hover:bg-primary-dark px-6 py-2 rounded-lg font-medium transition-colors items-center gap-2"
             >
-              <a href="#">Add to Chrome</a>
+              <span>Add to Chrome</span>
               <ArrowRight className="w-4 h-4" />
             </motion.button>
           </div>
@@ -66,9 +67,7 @@ function App() {
                   className="z-10 flex items-center justify-center space-x-2 bg-primary hover:bg-primary-dark px-8 py-3 rounded-lg font-medium transition-colors"
                 >
                   <Chrome className="w-5 h-5" />
-                  <a href="#">
-                    <span>Add to Chrome - It's Free</span>
-                  </a>
+                  <span>Add to Chrome - It's Free</span>
                 </motion.button>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
@@ -189,17 +188,20 @@ function App() {
       {/* Footer */}
       <footer className="bg-dark-lighter py-8 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-          <a href="#">
+          <Link to="/">
             <div className="flex items-center space-x-2">
               <img src={Logo} alt="BoomerAI Logo" className="w-20 -mr-2" />
               <span className="text-xl font-bold">BoomerAI</span>
             </div>
-          </a>
+          </Link>
           <div className="text-gray-400 text-sm">
             © 2025 BoomerAI. All rights reserved.
           </div>
-          <div className="text-gray-400 text-sm">
-            Created for <a className='hover:text-gray-500 text-[#565D68]' href="https://boomerai.com" target="_blank">BoomerAI</a> by <a className='hover:text-gray-500 text-[#565D68]' href="https://bkrupka.com" target="_blank">BKrupka</a>
+          <div className="flex gap-4">
+            <Link to="/legal" className="text-gray-400 hover:text-gray-200 text-sm">
+              Legal
+            </Link>
+            <a className='hover:text-gray-500 text-[#565D68]' href="https://boomerai.com" target="_blank">BoomerAI</a> by <a className='hover:text-gray-500 text-[#565D68]' href="https://bkrupka.com" target="_blank">BKrupka</a>
           </div>
         </div>
       </footer>

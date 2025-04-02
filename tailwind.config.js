@@ -35,7 +35,43 @@ export default {
           '50%': { transform: 'translateY(-10px)' },
         },
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            color: '#f3f4f6',
+            a: {
+              color: '#5296F4',
+              '&:hover': {
+                color: '#4D8CE4',
+              },
+            },
+            h1: {
+              color: '#f3f4f6',
+            },
+            h2: {
+              color: '#f3f4f6',
+            },
+            h3: {
+              color: '#f3f4f6',
+            },
+            h4: {
+              color: '#f3f4f6',
+            },
+            strong: {
+              color: '#f3f4f6',
+            },
+            code: {
+              color: '#f3f4f6',
+            },
+            li: {
+              color: '#d1d5db',
+            },
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };
