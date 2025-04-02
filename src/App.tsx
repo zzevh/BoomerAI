@@ -188,19 +188,19 @@ function App() {
       {/* Footer */}
       <footer className="bg-dark-lighter py-8 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-          <a href="/">
+          <Link to="/">
             <div className="flex items-center space-x-2">
               <img src={Logo} alt="BoomerAI Logo" className="w-20 -mr-2" />
               <span className="text-xl font-bold">BoomerAI</span>
             </div>
-          </a>
+          </Link>
           <div className="text-gray-400 text-sm">
             © 2025 BoomerAI. All rights reserved.
           </div>
           <div className="flex gap-4">
-            <a href="/legal">
+            <Link to="/legal" className="hover:text-gray-500">
               Legal
-            </a>
+            </Link>
           </div>
         </div>
         <div className='text-center mt-4 text-sm text-gray-600'>
