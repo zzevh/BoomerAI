@@ -45,19 +45,38 @@ const Legal = () => {
           <div className="bg-dark-lighter p-8 rounded-xl">
             <h2 className="text-2xl font-bold mb-6">Privacy Policy</h2>
             <div className="prose prose-invert max-w-none">
-              <h3>Last Updated: April 2, 2025</h3>
+              <h3>Last Updated: April 2, 2024</h3>
 
-              <h4>1. Introduction</h4>
-              <p>
-                Welcome to BoomerAI ("we," "our," or "us"). This Privacy Policy explains how we collect, use, disclose,
-                and safeguard your information when you use our Chrome extension and website (collectively, the "Service").
-              </p>
-              <p>
-                We respect your privacy and are committed to protecting your personal data. Please read this Privacy Policy
-                carefully to understand our practices regarding your personal data.
-              </p>
+              <h1>BoomerAI Privacy Policy</h1>
 
-              <h4>2. Information We Collect</h4>
+              <h2>Introduction</h2>
+              <p>This Privacy Policy describes how the BoomerAI - AI Task Optimizer extension protects user privacy.</p>
+
+              <h2>Data Collection</h2>
+              <p>BoomerAI <strong>does not collect, store, or transmit</strong> any user data. All operations performed in the
+                extension take place locally on the user's device.</p>
+
+              <h2>Use of Permissions</h2>
+              <p>The extension uses the following permissions solely to fulfill its core functionality:</p>
+              <ul>
+                <li><strong>clipboardRead</strong>: Allows pasting text from the clipboard into the extension</li>
+                <li><strong>clipboardWrite</strong>: Allows copying optimized text to the clipboard</li>
+                <li><strong>tabs</strong>: Allows opening the ChatGPT page in a new tab</li>
+              </ul>
+
+              <h2>Cookies and Tracking Technologies</h2>
+              <p>The extension does not use cookies or any other tracking technologies.</p>
+
+              <h2>Security</h2>
+              <p>Since we do not collect user data, there is no risk of data leakage from our side.</p>
+
+              <h2>Changes to the Privacy Policy</h2>
+              <p>In case of any changes to our privacy policy, we will update this page.</p>
+
+              <h2>Contact</h2>
+              <p>If you have any questions regarding our privacy policy, please contact us at: contact@boomerai.com</p>
+
+              <h4>1. Information We Collect</h4>
               <p>
                 We collect minimal information through our Service. The only data collected is what Vercel (our hosting provider)
                 automatically collects for hosting purposes, such as:
@@ -74,7 +93,7 @@ const Legal = () => {
                 processed by the extension.
               </p>
 
-              <h4>3. How We Use Information</h4>
+              <h4>2. How We Use Information</h4>
               <p>
                 The limited information collected by Vercel is used only for:
               </p>
@@ -84,7 +103,7 @@ const Legal = () => {
                 <li>Detecting, preventing, and addressing technical issues</li>
               </ul>
 
-              <h4>4. Google Web Store</h4>
+              <h4>3. Google Web Store</h4>
               <p>
                 Our Chrome extension is distributed through the Google Web Store. Google may collect certain information as
                 described in their privacy policy. This collection is governed by Google's privacy practices, and we do not
@@ -97,37 +116,37 @@ const Legal = () => {
                 </a>
               </p>
 
-              <h4>5. Data Security</h4>
+              <h4>4. Data Security</h4>
               <p>
                 We implement appropriate technical and organizational measures to protect the limited data we collect.
                 However, no method of transmission over the Internet or electronic storage is 100% secure, so we cannot
                 guarantee absolute security.
               </p>
 
-              <h4>6. Children's Privacy</h4>
+              <h4>5. Children's Privacy</h4>
               <p>
                 Our Service is not intended for individuals under the age of 13. We do not knowingly collect personally
                 identifiable information from children under 13.
               </p>
 
-              <h4>7. International Data Transfers</h4>
+              <h4>6. International Data Transfers</h4>
               <p>
                 The limited information collected may be processed in countries where Vercel operates its servers.
                 By using our Service, you consent to this processing.
               </p>
 
-              <h4>8. Changes to This Privacy Policy</h4>
+              <h4>7. Changes to This Privacy Policy</h4>
               <p>
                 We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new
                 Privacy Policy on this page and updating the "Last Updated" date at the top.
               </p>
 
-              <h4>9. Contact Us</h4>
+              <h4>8. Contact Us</h4>
               <p>
                 If you have any questions about this Privacy Policy, please contact us at:
               </p>
               <p>
-                Email: privacy@boomerai.com
+                Email: contact@boomerai.com
               </p>
             </div>
           </div>
