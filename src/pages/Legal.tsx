@@ -45,7 +45,7 @@ const Legal = () => {
           <div className="bg-dark-lighter p-8 rounded-xl">
             <h2 className="text-2xl font-bold mb-6">Privacy Policy</h2>
             <div className="prose prose-invert max-w-none">
-              <h3>Last Updated: April 2, 2024</h3>
+              <h3>Last Updated: April 4, 2024</h3>
 
               <h1>BoomerAI Privacy Policy</h1>
 
